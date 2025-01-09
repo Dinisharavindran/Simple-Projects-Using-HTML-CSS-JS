@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: url(image.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+    color: bisque;
+    overflow: hidden;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+.countdown{
+    text-align: center;
+    margin-top: 14rem;
+    font-size: 3rem;
+}
+.timer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.time{
+    font-weight: bold;
+    padding: 1rem 2 rem;
+    font-size: 3rem;
+    border: 4px solid #9ba8a7;
+    backdrop-filter: blur(10px);
+    margin:0 1rem;
+    border-radius: 1rem;
+}
+.countdown-container span{
+    font-size: 30px;
+    font-weight: bold;
+    color:#cacaca;
+}
+
+#Clock {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    color: aqua;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+#Clock h1,h2 {
+    margin: 0;
+    font-size: large; 
+    margin-right: 10px; 
+}
+#Clock h2{
+    padding-right: 20px;
+    margin: 0;
+}
+#times {
+    font-size: 1.5rem;
+    color: burlywood;
+    font-weight: bold;
+    
+}
+ #date {
+    font-size: 1.5rem;
+    color: burlywood;
+    font-weight: bold;
+    
+}
+
