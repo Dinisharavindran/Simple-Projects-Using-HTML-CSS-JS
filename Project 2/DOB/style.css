@@ -1,0 +1,74 @@
+
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background: url(image.png);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.container {
+    background: #ffffff;
+    color: #333;
+    padding: 20px; 
+    border-radius: 15px;
+    width: 100%;
+    max-width: 300px; 
+    text-align: center;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    border: 3px solid #ffd700;
+    animation: fadeIn 1.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.results {
+    margin-top: 20px;
+    text-align: left;
+    background: linear-gradient(to right, #229605, #079e6c);
+    padding: 15px; 
+    border-radius: 10px;
+    color: white;
+    animation: fadeIn 1s;
+    font-weight: bold;
+    font-size: 0.9rem; 
+    max-height: none; 
+    overflow-y: auto; 
+}
+
+
+
+.container label, .container input, .container button {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.container button {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(to right, #0d880d, #05ca30);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background 0.3s;
+}
+
+.container button:hover {
+    background: linear-gradient(to right, #0ee089, #039b3d);
+    transform: scale(1.05);
+}
+
+
+.container input, .container label, .container button {
+    margin-bottom: 10px;
+}
