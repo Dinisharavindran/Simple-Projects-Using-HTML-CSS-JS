@@ -1,0 +1,33 @@
+
+body {
+    background: url(image.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+    backdrop-filter: blur(10px);
+    
+}
+
+#Clock {
+    text-align: center;
+    color: rgb(231, 161, 29);
+    padding-top: 200px;
+}
+
+#time {
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    letter-spacing: 10px;
+    border: 5px solid rgb(162, 178, 199); 
+    padding: 20px;
+    display: inline-block; 
+    border-radius: 10px; 
+}
+#greetings {
+    margin-bottom: 30px;
+    color: rgb(207, 207, 203);
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
